@@ -86,7 +86,8 @@ while True:
     # The below statement takes the choice number from the user.
     choiceNumber = input("Select your choice number from the above menu : ")
     if choiceNumber == "1":
-        loadCustomerData()
+        loadCustomerData() #Loads customer data from excel
+        print(customerNames)
         print("Choice number 1 is selected by the customer")
         # The line below will take the no:of customers from the user.
         NOC = 1
